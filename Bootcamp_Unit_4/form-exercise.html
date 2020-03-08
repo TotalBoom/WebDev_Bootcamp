@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Exercise</title>
+</head>
+<body>
+
+    <h1>Register</h1>
+
+    <form>
+        <label for="firstName">First Name:</label>
+        <input id="firstName" type="text" placeholder="John" required>
+        <label for="lastName">Last name:</label>
+        <input id="lastName" type="text" placeholder="Smith" required>
+
+        <div>
+            <label for="male">Male</label>
+            <input name="genderSelect" id="male" type="radio">
+            <label for="female">Female</label>
+            <input name="genderSelect" id="female" type="radio">
+            <label for="other">Other</label>
+            <input name="genderSelect" id="other" type="radio">
+        </div>
+
+        <div>
+            <label for="email">Email:</label>
+            <input id="email" type="email" placeholder="your email" required>
+            <label for="password">Password:</label>
+            <input id="password" type="password" required minlength="6" maxlength="10">
+        </div>
+
+        <div>
+            <label for="date">Birthday:</label>
+            <input id="date" name="date" type="date"> 
+        </div>
+
+        <div>
+            <label for="tosCheck"> I agree to the terms and coditions</label>
+            <input id="tosCheck" name="agreed" type="checkbox" required>
+        </div>
+
+        <input type="submit">
+    </form>
+</body>
+</html>

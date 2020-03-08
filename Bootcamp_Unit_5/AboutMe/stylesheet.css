@@ -1,0 +1,23 @@
+html{
+    /* background: url(https://www.motosha.com/wp-content/uploads/2018/03/wood-grain-texture-1024x683.jpg);
+    background-repeat: no-repeat;
+    background-size: cover; */
+
+    background: pink;
+}
+h1{
+    color: #FF0090;
+
+    border: 2px solid rebeccapurple;
+
+    /* border-color: rebeccapurple;
+    border-width: 5px;
+    border-style: groove; */
+}
+h4{
+    color: rgb(150, 0, 255);
+    background: black;
+}
+li{
+    color: rgba(150, 0, 255, 1);
+}
